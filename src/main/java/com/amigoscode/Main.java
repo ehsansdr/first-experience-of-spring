@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 //server :
 //  port : (the number of port you want to have it)
 
+//if you want list object without to create spesial one you cab declaye List.of( ,  ,  ,...)
+
 /*
 if you wan tto disable the server paste this to the src/main/resources/application.yml
 if you don't have it new file and nae it "application.yml"
@@ -38,6 +40,7 @@ public class Main {
         System.out.println("this method called");//if somone search or pull request to its annotation path
         //this SOUT print in you console how many times it will search
         return "fff";
+
     }
 
 }
